@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sound</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <h4>Keyboard</h4>
+    <p id="BrailleInput">Input in Braille:</p>
+    <p id="EnglishInput">Input in English:</p>
+    <div class="keys">
+
+      <div class="line">
+        <div data-key="49" class="key">
+          <kbd>.</kbd>
+          <span class="sound">1</span>
+        </div>
+        <div data-key="50" class="key">
+          <kbd>.</kbd>
+          <span class="sound">2</span>
+        </div>      
+        
+       
+      </div>
+
+      <div class="line">
+        <div data-key="81" class="key">
+          <kbd>.</kbd>
+          <span class="sound">3</span>
+        </div>
+        <div data-key="87" class="key">
+          <kbd>.</kbd>
+          <span class="sound">4</span>
+        </div>
+        
+      </div>
+
+      <div class="line">
+        <div data-key="65" class="key">
+          <kbd>.</kbd>
+          <span class="sound">5</span>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>.</kbd>
+          <span class="sound">6</span>
+        </div>
+        
+      </div>
+      <div class="line">
+        <div data-key="90" class="key">
+          <kbd>Ch</kbd>
+          <span class="sound">CD</span>
+        </div>
+        <div data-key="88" class="key">
+          <kbd>Wo</kbd>
+          <span class="sound">LD</span>
+        </div>
+      </div>
+
+
+      <div class="line">
+        <div data-key="32" class="spacebar">SPACE</div>
+      </div>
+    </div>
+
+    <audio data-key="49" src="wav/File13.wav"></audio>
+    <audio data-key="50" src="wav/File14.wav"></audio>
+    
+    <audio data-key="81" src="wav/File24.wav"></audio>
+    <audio data-key="87" src="wav/File25.wav"></audio>
+    
+    <audio data-key="65" src="wav/File34.wav"></audio>
+    <audio data-key="83" src="wav/File35.wav"></audio>
+   
+    <audio data-key="90" src="wav/File43.wav"></audio>
+    <audio data-key="88" src="wav/File44.wav"></audio>
+   
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

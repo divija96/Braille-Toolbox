@@ -1,0 +1,206 @@
+html {
+  background-color: #15282b;
+  color: #fff;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 2% 5%;
+}
+
+h4 {
+  font-size: 2em;
+  letter-spacing: 0.2em;
+}
+
+#notes {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  color: #fff;
+  width:100%;
+  word-wrap: break-word;
+}
+.BrailleToEnglishButton {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  padding: 8px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  line-height: 100px;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+}
+.BrailleToEnglishButton:hover,
+.BrailleToEnglishButton:active {
+  background-color: #fff;
+  color: #000;
+  border-color: #64BCCC;
+  box-shadow: 0 0 10px #6CD4FF;
+}
+.EnglishToBrailleButton {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  padding: 8px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  line-height: 100px;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+}
+.EnglishToBrailleButton:hover,
+.EnglishToBrailleButton:active {
+  background-color: #fff;
+  color: #000;
+  border-color: #64BCCC;
+  box-shadow: 0 0 10px #6CD4FF;
+}
+.BDocToDocButton,.BImageToDocButton,.BDynamicTranslButton{
+  display: inline-block;
+  width: 350px;
+  height: 500px;
+  padding: 8px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  line-height: 100px;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+}
+.BDocToDocButton:hover,
+.BDocToDocButton:active {
+  background-color: #fff;
+  color: #000;
+  border-color: #64BCCC;
+  box-shadow: 0 0 10px #6CD4FF;
+}
+.BImageToDocButton:hover,
+.BImageToDocButton:active {
+  background-color: #fff;
+  color: #000;
+  border-color: #64BCCC;
+  box-shadow: 0 0 10px #6CD4FF;
+}
+.BDynamicTranslButton:hover,
+.BDynamicTranslButton:active {
+  background-color: #fff;
+  color: #000;
+  border-color: #64BCCC;
+  box-shadow: 0 0 10px #6CD4FF;
+}
+.EDocToDocButton,.EImageToDocButton,.EDynamicTranslButton{
+  display: inline-block;
+  width: 350px;
+  height: 500px;
+  padding: 8px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  line-height: 100px;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+}
+.EDocToDocButton:hover,
+.EDocToDocButton:active {
+  background-color: #fff;
+  color: #000;
+  border-color: #64BCCC;
+  box-shadow: 0 0 10px #6CD4FF;
+}
+.EImageToDocButton:hover,
+.EImageToDocButton:active {
+  background-color: #fff;
+  color: #000;
+  border-color: #64BCCC;
+  box-shadow: 0 0 10px #6CD4FF;
+}
+.EDynamicTranslButton:hover,
+.EDynamicTranslButton:active {
+  background-color: #fff;
+  color: #000;
+  border-color: #64BCCC;
+  box-shadow: 0 0 10px #6CD4FF;
+}
+.keys {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+}
+
+.key {
+  background:rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 0.5em;
+  padding: 3px 7px;
+  width: 25px;
+  height: 45px;
+  text-align: center;
+  transition: all 0.5s;
+}
+p {
+  background:rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+  border-radius: 5px;
+  
+  padding: 3px 7px;
+  width: 1000px;
+  height: 50px;
+  transition: all 0.5s;
+}
+
+
+
+.playing {
+  transform: scale(1.1);
+  border-color: #64BCCC;
+  box-shadow: 0 0 10px #6CD4FF;
+}
+
+kbd {
+  display: block;
+  font-size: 20px;
+  margin: 2px;
+  text-shadow: 0 0 2px #fff;
+}
+
+.sound {
+  color: #64BCCC;
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+
+.spacebar {
+  background:rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 0.5em;
+  padding: 5px 10px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.5s;
+}
